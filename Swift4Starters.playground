@@ -1,0 +1,37 @@
+//: Playground: a place where people can play
+//: Variable: a declaration of value that can change
+//: Constant: a declaration of value that can't change
+
+import UIKit
+
+print("Hello World")
+
+var number_v = 100 //integer variable
+var (number_v1, number_v2, number_v3) = (25, 50, 100) //multi-integer variable declaration
+let number_c = 100 //integer constant
+let (number_c1, number_c2, number_c3) = (25, 50, 100) //multi-integer constant declaration
+var number_v_array = [25, 50, 100] //integer variable array
+let number_c_array = [25, 50, 100] //integer constant array
+
+var decimal_v = 10.10 //float variable
+var (decimal_v1, decimal_v2, decimal_v3) = (10.10, 20.20, 30.30) //multi-float variable declaration
+let decimal_c = 10.10 //float constant
+let (decimal_c1, decimal_c2, decimal_c3) = (10.10, 20.20, 30.30) //multi-float constant declaration
+var decimal_v_array = [10.10, 20.20, 30.30] //float variable array
+let decimal_c_array = [10.10, 20.20, 30.30] //float constant array
+
+var sentence_v = "This is a string variable" //string variable
+var (sentence_v1, sentence_v2, sentence_v3) =
+    ("This is the string variable 1","This is the string variable 2","This is the string variable 3") //multi-string variable declaration
+let sentence_c = "This is a string constant" //string constant
+let (sentence_c1, sentence_c2, sentence_c3) =
+    ("This is the string constant 1","This is the string constant 2","This is the string constant 3") //multi-string constant declaration
+var sentence_v_array = ["A1", "B2", "C3"] //string variable array
+let sentence_c_array = ["A1", "B2", "C3"] //string constant array
+
+var boolean_v = true //boolean variable
+var (boolean_v1, boolean_v2, boolean_v3) = (true, false, true) //multi-boolean variable declaration
+let boolean_c = true //boolean constant
+let (boolean_c1, boolean_c2, boolean_c3) = (true, false, true) //multi-boolean constant declaration
+var boolean_v_array = [true, false, true] //boolean variable array
+let boolean_c_array = [true, false, true] //boolean constant array
